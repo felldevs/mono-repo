@@ -1,0 +1,12 @@
+{
+  "name": "mono-repo",
+  "version": "1.0.0",
+  "main": "index.js",
+  "repository": "https://github.com/felldevs/mono-repo.git",
+  "author": "Fellipe Nogueira <fell.devs@gmail.com.br>",
+  "license": "MIT",
+  "private": "true",
+  "workspaces": {
+    "packages": ["packages/*"]
+  }
+}
