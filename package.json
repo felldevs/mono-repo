@@ -6,10 +6,15 @@
   "author": "Fellipe Nogueira <fell.devs@gmail.com.br>",
   "license": "MIT",
   "scripts": {
-    "postinstall":"cd ./packages/expoapp && expo-yarn-workspaces postinstall"
+    "postinstall": "cd ./packages/expoapp && expo-yarn-workspaces postinstall"
   },
   "private": "true",
   "workspaces": {
-    "packages": ["packages/*"]
+    "packages": [
+      "packages/*"
+    ]
+  },
+  "devDependencies": {
+    "typescript": "^4.0.2"
   }
 }
