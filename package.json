@@ -5,6 +5,9 @@
   "repository": "https://github.com/felldevs/mono-repo.git",
   "author": "Fellipe Nogueira <fell.devs@gmail.com.br>",
   "license": "MIT",
+  "scripts": {
+    "postinstall":"cd ./packages/expoapp && expo-yarn-workspaces postinstall"
+  },
   "private": "true",
   "workspaces": {
     "packages": ["packages/*"]
